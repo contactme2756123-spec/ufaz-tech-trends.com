@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>UFAZ Tech & Trends | Trending News & Tech Updates</title>
+  <meta name="description" content="UFAZ Tech & Trends brings you the latest trending news and tech updates in a clean, modern, and engaging design.">
+
+  <style>
+    *{margin:0; padding:0; box-sizing:border-box;}
+    body{font-family:'Segoe UI', Tahoma, sans-serif; background:#f4f7fb; color:#333; line-height:1.7;}
+    a{text-decoration:none;}
+
+    /* HEADER */
+    header{
+      background: linear-gradient(135deg,#2563eb,#06b6d4);
+      color:#fff;
+      padding:60px 20px;
+      text-align:center;
+    }
+    header h1{
+      font-size:3rem;
+      font-weight:800;
+      margin-bottom:10px;
+    }
+    header p{
+      font-size:1.15rem;
+      opacity:0.95;
+    }
+
+    /* NAV */
+    nav{
+      background:#fff;
+      display:flex;
+      justify-content:center;
+      gap:30px;
+      padding:15px;
+      box-shadow:0 2px 12px rgba(0,0,0,0.08);
+      position:sticky;
+      top:0;
+      z-index:100;
+    }
+    nav a{color:#2563eb; font-weight:600;}
+    nav a:hover{color:#06b6d4;}
+
+    /* CONTAINER */
+    .container{max-width:1200px; margin:auto; padding:40px 20px;}
+
+    /* HERO */
+    .hero{margin-bottom:50px;}
+    .hero img{width:100%; border-radius:16px; box-shadow:0 15px 40px rgba(0,0,0,0.15);}
+
+    /* POSTS */
+    .posts{display:grid; grid-template-columns:repeat(auto-fit,minmax(300px,1fr)); gap:30px;}
+    .post{
+      background:#fff;
+      border-radius:16px;
+      overflow:hidden;
+      box-shadow:0 10px 30px rgba(0,0,0,0.08);
+      transition:all 0.3s ease;
+    }
+    .post:hover{
+      transform:translateY(-8px);
+      box-shadow:0 18px 40px rgba(0,0,0,0.15);
+    }
+    .post img{width:100%; height:200px; object-fit:cover;}
+    .post-content{padding:22px;}
+    .post-content h2{font-size:1.3rem; color:#2563eb; margin-bottom:10px;}
+    .post-content p{font-size:0.95rem; color:#555;}
+
+    /* INFO */
+    .info{
+      margin-top:70px;
+      background:#fff;
+      padding:40px;
+      border-radius:16px;
+      box-shadow:0 10px 30px rgba(0,0,0,0.08);
+      display:grid;
+      grid-template-columns:1fr 1fr;
+      gap:30px;
+      align-items:center;
+    }
+    .info img{width:100%; border-radius:14px;}
+    .info h3{color:#2563eb; margin-bottom:12px; font-size:1.5rem;}
+    @media(max-width:768px){
+      .info{grid-template-columns:1fr; text-align:center;}
+    }
+
+    /* FOOTER */
+    footer{
+      background:#0f172a;
+      color:#cbd5e1;
+      text-align:center;
+      padding:30px 15px;
+      margin-top:70px;
+    }
+    footer a{color:#38bdf8; font-weight:600;}
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>UFAZ Tech & Trends</h1>
+  <p>Your source of trending news & tech updates</p>
+</header>
+
+<nav>
+  <a href="#">Home</a>
+  <a href="#about">About</a>
+  <a href="#contact">Contact</a>
+</nav>
+
+<main class="container">
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <img src="https://images.unsplash.com/photo-1519389950473-47ba0277781c" alt="Trending Technology">
+  </section>
+
+  <!-- Posts Section -->
+  <section class="posts">
+    <div class="post">
+      <img src="https://images.unsplash.com/photo-1526378722484-d7ecf46b1f85" alt="Tech News">
+      <div class="post-content">
+        <h2>Top Tech Trends You Must Know Today</h2>
+        <p>Discover the latest innovations in AI, smartphones, and digital technology shaping the future.</p>
+      </div>
+    </div>
+
+    <div class="post">
+      <img src="https://images.unsplash.com/photo-1504711434969-e33886168f5c" alt="Breaking News">
+      <div class="post-content">
+        <h2>Breaking News Everyone Is Talking About</h2>
+        <p>Get fast, reliable updates on viral stories and major events happening around the world.</p>
+      </div>
+    </div>
+
+    <div class="post">
+      <img src="https://images.unsplash.com/photo-1498050108023-c5249f4df085" alt="Internet Trends">
+      <div class="post-content">
+        <h2>Internet & Social Media Trends</h2>
+        <p>Explore what’s trending on social platforms and how it impacts our digital lives.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="info">
+    <img src="https://images.unsplash.com/photo-1529333166437-7750a6dd5a70" alt="About UFAZ Tech & Trends">
+    <div>
+      <h3>About UFAZ Tech & Trends</h3>
+      <p>UFAZ Tech & Trends is a modern blog focused on trending news and technology updates. We deliver clean, easy-to-understand content to keep readers informed and engaged.</p>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="info">
+    <img src="https://images.unsplash.com/photo-1581090700227-1e37b190418e" alt="Contact">
+    <div>
+      <h3>Contact & Advertise</h3>
+      <p>For advertisements, sponsored posts, and collaborations, contact us at:<br><br>
+        📧 <a href="mailto:contactme2756123@gmail.com">contactme2756123@gmail.com</a>
+      </p>
+    </div>
+  </section>
+
+</main>
+
+<footer>
+  <p>© 2026 <strong>UFAZ Tech & Trends</strong> | Ads & Sponsorships: <a href="mailto:contactme2756123@gmail.com">contactme2756123@gmail.com</a></p>
+</footer>
+
+</body>
+</html>
